@@ -6,6 +6,7 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  /* height works with flex! */
   height: 100vh;
 }
 
@@ -33,6 +34,7 @@ ul {
   list-style-type: none;
   display: flex;
   gap: 16px;
+  /* removes any default spacing by the solo list elements */
   margin: 0;
   padding: 0;
 }
@@ -45,6 +47,7 @@ a {
 .header, .footer {
   display: flex;
   justify-content: space-between;
+  /* space between nav and edge of screen */
   padding: 16px;
 }
 
@@ -53,6 +56,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  /* needed to clear space between content and footer */
   flex: 1;
 }
 
